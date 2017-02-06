@@ -2,7 +2,7 @@
   "name": "vue-chartist",
   "version": "2.0.2",
   "description": "Plugin chartist for vuejs",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "example": "npm run build && browserify -t [babelify] -e ./example/src/main.js -o ./example/public/build.js && http-server -c0 ./example/public",
     "build": "babel --presets es2015 ./src/index.js -o index.js",
